@@ -4,7 +4,7 @@ import classNames from "classnames";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import Script from "next/script";
 
 export default function Home() {
@@ -268,7 +268,6 @@ var errorMap = [
 
 // initialise plugin
 var iti = window.intlTelInput(input, {
-  excludeCountries: ["ru", "ua"],
   initialCountry: "auto",
   autoPlaceholder: "aggressive",
   geoIpLookup: function (callback) {
